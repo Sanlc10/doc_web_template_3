@@ -4,9 +4,9 @@
 
 @layer base {
   :root {
-    /* Premium Color Palette - Deep Teal (Medical Trust + Sophistication) */
-    --primary: 182 52% 39%;
-    --primary-foreground: 180 100% 98%;
+    /* Premium Color Palette - Deep Blue (Medical Trust + Sophistication) */
+    --primary: 213 97% 27%;
+    --primary-foreground: 213 100% 98%;
 
     /* Warm Bronze (Luxury + Warmth) */
     --secondary: 27 39% 55%;
@@ -31,7 +31,7 @@
 
     --border: 30 20% 88%;
     --input: 30 20% 88%;
-    --ring: 182 52% 39%;
+    --ring: 213 97% 27%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
