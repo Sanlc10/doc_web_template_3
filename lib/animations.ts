@@ -1,8 +1,5 @@
 import { Variants } from "framer-motion";
 
-// Premium easing function
-const premiumEasing = [0.22, 1, 0.36, 1];
-
 // Fade in from bottom
 export const fadeInUpVariants: Variants = {
   hidden: {
@@ -14,7 +11,7 @@ export const fadeInUpVariants: Variants = {
     y: 0,
     transition: {
       duration: 0.6,
-      ease: premiumEasing,
+      ease: [0.22, 1, 0.36, 1],
     },
   },
 };
@@ -30,7 +27,7 @@ export const fadeInLeftVariants: Variants = {
     x: 0,
     transition: {
       duration: 0.5,
-      ease: premiumEasing,
+      ease: [0.22, 1, 0.36, 1],
     },
   },
 };
@@ -46,7 +43,7 @@ export const fadeInRightVariants: Variants = {
     x: 0,
     transition: {
       duration: 0.5,
-      ease: premiumEasing,
+      ease: [0.22, 1, 0.36, 1],
     },
   },
 };
@@ -62,7 +59,7 @@ export const scaleInVariants: Variants = {
     scale: 1,
     transition: {
       duration: 0.4,
-      ease: premiumEasing,
+      ease: [0.22, 1, 0.36, 1],
     },
   },
 };
@@ -92,7 +89,7 @@ export const staggerItemVariants: Variants = {
     y: 0,
     transition: {
       duration: 0.4,
-      ease: premiumEasing,
+      ease: [0.22, 1, 0.36, 1],
     },
   },
 };
