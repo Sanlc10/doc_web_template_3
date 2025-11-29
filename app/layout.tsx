@@ -33,11 +33,20 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: 'Dr. Marco Lopez Rheumatology',
+    images: [
+      {
+        url: '/assets/open_graph.png',
+        width: 1200,
+        height: 630,
+        alt: 'Dr. Marco Lopez - Board-Certified Rheumatologist',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Dr. Marco Lopez - Rheumatologist',
     description: 'Expert rheumatology care',
+    images: ['/assets/open_graph.png'],
   },
 };
 
